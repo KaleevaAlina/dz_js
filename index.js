@@ -2,15 +2,15 @@
 
 //1 пункт
   let num=3;
-  alert ('Значение переменой: '+ num) ;
+  alert ('Значение переменой: ', num) ;
 
 //2 пункт 
     const a=10;
     const b=2;
-    console.log ('Сумма: ' + (a+b));
-    console.log ('Разность: ' + (a-b));
-    console.log ('Произведение: ' + (a*b));
-    console.log ('Деление: ' + (a/b));  
+    console.log ('Сумма: ', (a+b));
+    console.log ('Разность: ', (a-b));
+    console.log ('Произведение: ', (a*b));
+    console.log ('Деление: ', (a/b));  
 
 //3 пункт
     let c=15;
@@ -22,13 +22,13 @@
     const aa=10;
     const bb=2;
     let cc=5;
-    console.log ('Сумма трех переменных: ' + (aa+bb+cc)); 
+    console.log ('Сумма трех переменных: ',  (aa+bb+cc)); 
 
      function sum(aaa,bbb,ccc) {
      return aaa+bbb+ccc;
     }
 
-    console.log('Сумма трех переменных: ' + sum(10,2,5)); 
+    console.log('Сумма трех переменных: ', sum(10,2,5)); 
 
 //5 пункт
     let a1 = 17;
@@ -36,7 +36,7 @@
     let c1 = a1-b1;
     let d1 = 7;
     let result1 = c1+d1;
-    console.log ('Результат: '+result1);
+    console.log ('Результат: ',result1);
 
 //6 пункт
    let str =' Привет, Мир!';
@@ -49,7 +49,7 @@
     let str2 ='Привет,'
     let str3 ='Мир!'
     let result3=str2+ ' ' + str3;
-    console.log ('Результат: ' + result3); 
+    console.log ('Результат: ', result3); 
 
 // 8 пункт 
     let name = 'Alina';
