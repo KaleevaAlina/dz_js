@@ -1,4 +1,4 @@
-"use strict"
+//"use strict"
 
 //1 пункт
   let num=3;
